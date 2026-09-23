@@ -1,0 +1,1478 @@
+[
+  {
+    "genre_id": 3,
+    "genre_name": "コミック雑誌"
+  },
+  {
+    "genre_id": 5,
+    "genre_name": "ギャグ・コメディ"
+  },
+  {
+    "genre_id": 17,
+    "genre_name": "ファンタジー"
+  },
+  {
+    "genre_id": 18,
+    "genre_name": "ホラー"
+  },
+  {
+    "genre_id": 21,
+    "genre_name": "残虐表現"
+  },
+  {
+    "genre_id": 25,
+    "genre_name": "拘束"
+  },
+  {
+    "genre_id": 27,
+    "genre_name": "辱め"
+  },
+  {
+    "genre_id": 28,
+    "genre_name": "羞恥"
+  },
+  {
+    "genre_id": 35,
+    "genre_name": "女性向け"
+  },
+  {
+    "genre_id": 38,
+    "genre_name": "クンニ"
+  },
+  {
+    "genre_id": 42,
+    "genre_name": "ドール"
+  },
+  {
+    "genre_id": 48,
+    "genre_name": "制服"
+  },
+  {
+    "genre_id": 55,
+    "genre_name": "処女"
+  },
+  {
+    "genre_id": 59,
+    "genre_name": "ふたなり"
+  },
+  {
+    "genre_id": 62,
+    "genre_name": "触手"
+  },
+  {
+    "genre_id": 63,
+    "genre_name": "巫女"
+  },
+  {
+    "genre_id": 64,
+    "genre_name": "ネコミミ・獣系"
+  },
+  {
+    "genre_id": 72,
+    "genre_name": "異物挿入"
+  },
+  {
+    "genre_id": 81,
+    "genre_name": "複数話"
+  },
+  {
+    "genre_id": 88,
+    "genre_name": "フィスト"
+  },
+  {
+    "genre_id": 93,
+    "genre_name": "裸エプロン"
+  },
+  {
+    "genre_id": 94,
+    "genre_name": "ニーソックス"
+  },
+  {
+    "genre_id": 95,
+    "genre_name": "性転換・女体化"
+  },
+  {
+    "genre_id": 96,
+    "genre_name": "孕ませ"
+  },
+  {
+    "genre_id": 97,
+    "genre_name": "筋肉"
+  },
+  {
+    "genre_id": 102,
+    "genre_name": "美乳"
+  },
+  {
+    "genre_id": 514,
+    "genre_name": "アクション・格闘"
+  },
+  {
+    "genre_id": 524,
+    "genre_name": "義母"
+  },
+  {
+    "genre_id": 525,
+    "genre_name": "アニメキャラクター"
+  },
+  {
+    "genre_id": 527,
+    "genre_name": "お嬢様・令嬢"
+  },
+  {
+    "genre_id": 528,
+    "genre_name": "お姫様"
+  },
+  {
+    "genre_id": 553,
+    "genre_name": "学園もの"
+  },
+  {
+    "genre_id": 555,
+    "genre_name": "恋愛"
+  },
+  {
+    "genre_id": 558,
+    "genre_name": "BL（ボーイズラブ）"
+  },
+  {
+    "genre_id": 567,
+    "genre_name": "鬼畜"
+  },
+  {
+    "genre_id": 568,
+    "genre_name": "ダーク系"
+  },
+  {
+    "genre_id": 569,
+    "genre_name": "ラブコメ"
+  },
+  {
+    "genre_id": 617,
+    "genre_name": "3D"
+  },
+  {
+    "genre_id": 1001,
+    "genre_name": "OL"
+  },
+  {
+    "genre_id": 1003,
+    "genre_name": "女将・女主人"
+  },
+  {
+    "genre_id": 1004,
+    "genre_name": "インストラクター"
+  },
+  {
+    "genre_id": 1005,
+    "genre_name": "キャンギャル"
+  },
+  {
+    "genre_id": 1007,
+    "genre_name": "スチュワーデス"
+  },
+  {
+    "genre_id": 1008,
+    "genre_name": "メイド"
+  },
+  {
+    "genre_id": 1009,
+    "genre_name": "モデル"
+  },
+  {
+    "genre_id": 1011,
+    "genre_name": "レースクィーン"
+  },
+  {
+    "genre_id": 1012,
+    "genre_name": "バスガイド"
+  },
+  {
+    "genre_id": 1013,
+    "genre_name": "看護婦・ナース"
+  },
+  {
+    "genre_id": 1014,
+    "genre_name": "熟女"
+  },
+  {
+    "genre_id": 1015,
+    "genre_name": "女医"
+  },
+  {
+    "genre_id": 1016,
+    "genre_name": "女教師"
+  },
+  {
+    "genre_id": 1017,
+    "genre_name": "女子アナ"
+  },
+  {
+    "genre_id": 1018,
+    "genre_name": "女子校生"
+  },
+  {
+    "genre_id": 1019,
+    "genre_name": "女子大生"
+  },
+  {
+    "genre_id": 1020,
+    "genre_name": "若妻・幼妻"
+  },
+  {
+    "genre_id": 1021,
+    "genre_name": "格闘家"
+  },
+  {
+    "genre_id": 1022,
+    "genre_name": "家庭教師"
+  },
+  {
+    "genre_id": 1023,
+    "genre_name": "秘書"
+  },
+  {
+    "genre_id": 1025,
+    "genre_name": "未亡人"
+  },
+  {
+    "genre_id": 1026,
+    "genre_name": "職業色々"
+  },
+  {
+    "genre_id": 1027,
+    "genre_name": "美少女"
+  },
+  {
+    "genre_id": 1028,
+    "genre_name": "黒人男優"
+  },
+  {
+    "genre_id": 1029,
+    "genre_name": "妊婦"
+  },
+  {
+    "genre_id": 1030,
+    "genre_name": "そっくりさん"
+  },
+  {
+    "genre_id": 1031,
+    "genre_name": "痴女"
+  },
+  {
+    "genre_id": 1032,
+    "genre_name": "お母さん"
+  },
+  {
+    "genre_id": 1033,
+    "genre_name": "お姉さん"
+  },
+  {
+    "genre_id": 1034,
+    "genre_name": "ギャル"
+  },
+  {
+    "genre_id": 1036,
+    "genre_name": "キャバ嬢・風俗嬢"
+  },
+  {
+    "genre_id": 1039,
+    "genre_name": "人妻・主婦"
+  },
+  {
+    "genre_id": 1040,
+    "genre_name": "ウェイトレス"
+  },
+  {
+    "genre_id": 1041,
+    "genre_name": "コンパニオン"
+  },
+  {
+    "genre_id": 1069,
+    "genre_name": "不倫"
+  },
+  {
+    "genre_id": 1071,
+    "genre_name": "極道・任侠"
+  },
+  {
+    "genre_id": 1075,
+    "genre_name": "くノ一"
+  },
+  {
+    "genre_id": 1082,
+    "genre_name": "女戦士"
+  },
+  {
+    "genre_id": 1083,
+    "genre_name": "幼なじみ"
+  },
+  {
+    "genre_id": 1085,
+    "genre_name": "変身ヒロイン"
+  },
+  {
+    "genre_id": 1086,
+    "genre_name": "魔法少女"
+  },
+  {
+    "genre_id": 2001,
+    "genre_name": "巨乳"
+  },
+  {
+    "genre_id": 2002,
+    "genre_name": "長身"
+  },
+  {
+    "genre_id": 2003,
+    "genre_name": "小柄"
+  },
+  {
+    "genre_id": 2004,
+    "genre_name": "めがね"
+  },
+  {
+    "genre_id": 2005,
+    "genre_name": "貧乳・微乳"
+  },
+  {
+    "genre_id": 2006,
+    "genre_name": "スレンダー"
+  },
+  {
+    "genre_id": 2007,
+    "genre_name": "ぽっちゃり"
+  },
+  {
+    "genre_id": 2008,
+    "genre_name": "ミニ系"
+  },
+  {
+    "genre_id": 2011,
+    "genre_name": "アジア女優"
+  },
+  {
+    "genre_id": 2012,
+    "genre_name": "白人女優"
+  },
+  {
+    "genre_id": 2019,
+    "genre_name": "ツンデレ"
+  },
+  {
+    "genre_id": 2022,
+    "genre_name": "女捜査官"
+  },
+  {
+    "genre_id": 2023,
+    "genre_name": "日焼け"
+  },
+  {
+    "genre_id": 2024,
+    "genre_name": "巨尻"
+  },
+  {
+    "genre_id": 3001,
+    "genre_name": "体操着・ブルマ"
+  },
+  {
+    "genre_id": 3002,
+    "genre_name": "和服・浴衣"
+  },
+  {
+    "genre_id": 3003,
+    "genre_name": "セーラー服"
+  },
+  {
+    "genre_id": 3005,
+    "genre_name": "チャイナドレス"
+  },
+  {
+    "genre_id": 3006,
+    "genre_name": "パンスト・タイツ"
+  },
+  {
+    "genre_id": 3007,
+    "genre_name": "ミニスカ"
+  },
+  {
+    "genre_id": 3008,
+    "genre_name": "水着"
+  },
+  {
+    "genre_id": 3009,
+    "genre_name": "競泳・スクール水着"
+  },
+  {
+    "genre_id": 3011,
+    "genre_name": "学生服"
+  },
+  {
+    "genre_id": 3012,
+    "genre_name": "ミニスカポリス"
+  },
+  {
+    "genre_id": 3013,
+    "genre_name": "ボディコン"
+  },
+  {
+    "genre_id": 3014,
+    "genre_name": "ランジェリー"
+  },
+  {
+    "genre_id": 3015,
+    "genre_name": "ボンテージ"
+  },
+  {
+    "genre_id": 3021,
+    "genre_name": "和服・浴衣"
+  },
+  {
+    "genre_id": 3029,
+    "genre_name": "即ハメ"
+  },
+  {
+    "genre_id": 3032,
+    "genre_name": "ルーズソックス"
+  },
+  {
+    "genre_id": 3033,
+    "genre_name": "バニーガール"
+  },
+  {
+    "genre_id": 3034,
+    "genre_name": "ゴスロリ"
+  },
+  {
+    "genre_id": 3035,
+    "genre_name": "レオタード"
+  },
+  {
+    "genre_id": 3036,
+    "genre_name": "女装・男の娘"
+  },
+  {
+    "genre_id": 4001,
+    "genre_name": "SM"
+  },
+  {
+    "genre_id": 4002,
+    "genre_name": "近親相姦"
+  },
+  {
+    "genre_id": 4005,
+    "genre_name": "乱交"
+  },
+  {
+    "genre_id": 4006,
+    "genre_name": "ナンパ"
+  },
+  {
+    "genre_id": 4007,
+    "genre_name": "企画"
+  },
+  {
+    "genre_id": 4008,
+    "genre_name": "脚フェチ"
+  },
+  {
+    "genre_id": 4009,
+    "genre_name": "巨乳フェチ"
+  },
+  {
+    "genre_id": 4010,
+    "genre_name": "その他フェチ"
+  },
+  {
+    "genre_id": 4011,
+    "genre_name": "尻フェチ"
+  },
+  {
+    "genre_id": 4013,
+    "genre_name": "レズビアン"
+  },
+  {
+    "genre_id": 4014,
+    "genre_name": "童貞"
+  },
+  {
+    "genre_id": 4015,
+    "genre_name": "ニューハーフ"
+  },
+  {
+    "genre_id": 4016,
+    "genre_name": "パンチラ"
+  },
+  {
+    "genre_id": 4017,
+    "genre_name": "局部アップ"
+  },
+  {
+    "genre_id": 4018,
+    "genre_name": "スカトロ"
+  },
+  {
+    "genre_id": 4019,
+    "genre_name": "パイパン"
+  },
+  {
+    "genre_id": 4020,
+    "genre_name": "野外・露出"
+  },
+  {
+    "genre_id": 4021,
+    "genre_name": "盗撮・のぞき"
+  },
+  {
+    "genre_id": 4022,
+    "genre_name": "洋ピン・海外輸入"
+  },
+  {
+    "genre_id": 4023,
+    "genre_name": "ドキュメンタリー"
+  },
+  {
+    "genre_id": 4024,
+    "genre_name": "素人"
+  },
+  {
+    "genre_id": 4025,
+    "genre_name": "単体作品"
+  },
+  {
+    "genre_id": 4026,
+    "genre_name": "カーセックス"
+  },
+  {
+    "genre_id": 4028,
+    "genre_name": "妄想"
+  },
+  {
+    "genre_id": 4030,
+    "genre_name": "淫乱・ハード系"
+  },
+  {
+    "genre_id": 4031,
+    "genre_name": "コスプレ"
+  },
+  {
+    "genre_id": 4033,
+    "genre_name": "クラシック"
+  },
+  {
+    "genre_id": 4034,
+    "genre_name": "特撮"
+  },
+  {
+    "genre_id": 4040,
+    "genre_name": "レズ"
+  },
+  {
+    "genre_id": 4057,
+    "genre_name": "姉・妹"
+  },
+  {
+    "genre_id": 4058,
+    "genre_name": "ショタ"
+  },
+  {
+    "genre_id": 4059,
+    "genre_name": "キス・接吻"
+  },
+  {
+    "genre_id": 4060,
+    "genre_name": "ゲイ"
+  },
+  {
+    "genre_id": 4073,
+    "genre_name": "アニメ"
+  },
+  {
+    "genre_id": 4075,
+    "genre_name": "SF"
+  },
+  {
+    "genre_id": 4076,
+    "genre_name": "アクション"
+  },
+  {
+    "genre_id": 4096,
+    "genre_name": "スポーツ"
+  },
+  {
+    "genre_id": 4098,
+    "genre_name": "セクシー"
+  },
+  {
+    "genre_id": 4105,
+    "genre_name": "ダンス"
+  },
+  {
+    "genre_id": 4106,
+    "genre_name": "騎乗位"
+  },
+  {
+    "genre_id": 4110,
+    "genre_name": "Vシネマ"
+  },
+  {
+    "genre_id": 4111,
+    "genre_name": "寝取り・寝取られ・NTR"
+  },
+  {
+    "genre_id": 4114,
+    "genre_name": "ドラマ"
+  },
+  {
+    "genre_id": 4116,
+    "genre_name": "着エロ"
+  },
+  {
+    "genre_id": 4118,
+    "genre_name": "アイドル・芸能人"
+  },
+  {
+    "genre_id": 4119,
+    "genre_name": "エステ"
+  },
+  {
+    "genre_id": 4120,
+    "genre_name": "逆ナン"
+  },
+  {
+    "genre_id": 4122,
+    "genre_name": "イタズラ"
+  },
+  {
+    "genre_id": 4123,
+    "genre_name": "カップル"
+  },
+  {
+    "genre_id": 4124,
+    "genre_name": "マッサージ・リフレ"
+  },
+  {
+    "genre_id": 4138,
+    "genre_name": "原作コラボ"
+  },
+  {
+    "genre_id": 4139,
+    "genre_name": "ファン感謝・訪問"
+  },
+  {
+    "genre_id": 4140,
+    "genre_name": "温泉"
+  },
+  {
+    "genre_id": 5001,
+    "genre_name": "中出し"
+  },
+  {
+    "genre_id": 5002,
+    "genre_name": "フェラ"
+  },
+  {
+    "genre_id": 5003,
+    "genre_name": "ぶっかけ"
+  },
+  {
+    "genre_id": 5004,
+    "genre_name": "手コキ"
+  },
+  {
+    "genre_id": 5005,
+    "genre_name": "アナル"
+  },
+  {
+    "genre_id": 5006,
+    "genre_name": "バイブ"
+  },
+  {
+    "genre_id": 5007,
+    "genre_name": "クスコ"
+  },
+  {
+    "genre_id": 5008,
+    "genre_name": "オナニー"
+  },
+  {
+    "genre_id": 5009,
+    "genre_name": "ごっくん"
+  },
+  {
+    "genre_id": 5010,
+    "genre_name": "監禁"
+  },
+  {
+    "genre_id": 5011,
+    "genre_name": "放尿・お漏らし"
+  },
+  {
+    "genre_id": 5012,
+    "genre_name": "飲尿"
+  },
+  {
+    "genre_id": 5013,
+    "genre_name": "脱糞"
+  },
+  {
+    "genre_id": 5014,
+    "genre_name": "浣腸"
+  },
+  {
+    "genre_id": 5015,
+    "genre_name": "ドラッグ"
+  },
+  {
+    "genre_id": 5016,
+    "genre_name": "潮吹き"
+  },
+  {
+    "genre_id": 5017,
+    "genre_name": "おもちゃ"
+  },
+  {
+    "genre_id": 5018,
+    "genre_name": "ローター"
+  },
+  {
+    "genre_id": 5019,
+    "genre_name": "パイズリ"
+  },
+  {
+    "genre_id": 5020,
+    "genre_name": "シックスナイン"
+  },
+  {
+    "genre_id": 5021,
+    "genre_name": "縛り・緊縛"
+  },
+  {
+    "genre_id": 5022,
+    "genre_name": "3P・4P"
+  },
+  {
+    "genre_id": 5023,
+    "genre_name": "顔射"
+  },
+  {
+    "genre_id": 5024,
+    "genre_name": "食糞"
+  },
+  {
+    "genre_id": 5025,
+    "genre_name": "淫語"
+  },
+  {
+    "genre_id": 5048,
+    "genre_name": "足コキ"
+  },
+  {
+    "genre_id": 5053,
+    "genre_name": "指マン"
+  },
+  {
+    "genre_id": 5057,
+    "genre_name": "ローション・オイル"
+  },
+  {
+    "genre_id": 5059,
+    "genre_name": "拷問"
+  },
+  {
+    "genre_id": 5060,
+    "genre_name": "母乳"
+  },
+  {
+    "genre_id": 5062,
+    "genre_name": "レズキス"
+  },
+  {
+    "genre_id": 5063,
+    "genre_name": "主観"
+  },
+  {
+    "genre_id": 5066,
+    "genre_name": "電マ"
+  },
+  {
+    "genre_id": 5067,
+    "genre_name": "顔面騎乗"
+  },
+  {
+    "genre_id": 5068,
+    "genre_name": "イラマチオ"
+  },
+  {
+    "genre_id": 5069,
+    "genre_name": "くすぐり"
+  },
+  {
+    "genre_id": 5070,
+    "genre_name": "時間停止"
+  },
+  {
+    "genre_id": 5071,
+    "genre_name": "ハーレム"
+  },
+  {
+    "genre_id": 5072,
+    "genre_name": "早漏"
+  },
+  {
+    "genre_id": 5073,
+    "genre_name": "デカチン・巨根"
+  },
+  {
+    "genre_id": 5074,
+    "genre_name": "M男"
+  },
+  {
+    "genre_id": 5075,
+    "genre_name": "汗だく"
+  },
+  {
+    "genre_id": 5076,
+    "genre_name": "アナルセックス"
+  },
+  {
+    "genre_id": 6002,
+    "genre_name": "ハメ撮り"
+  },
+  {
+    "genre_id": 6003,
+    "genre_name": "ベスト・総集編"
+  },
+  {
+    "genre_id": 6004,
+    "genre_name": "デジモ"
+  },
+  {
+    "genre_id": 6005,
+    "genre_name": "投稿"
+  },
+  {
+    "genre_id": 6006,
+    "genre_name": "デビュー作品"
+  },
+  {
+    "genre_id": 6007,
+    "genre_name": "その他"
+  },
+  {
+    "genre_id": 6008,
+    "genre_name": "パラダイスTV"
+  },
+  {
+    "genre_id": 6012,
+    "genre_name": "4時間以上作品"
+  },
+  {
+    "genre_id": 6014,
+    "genre_name": "イメージビデオ"
+  },
+  {
+    "genre_id": 6017,
+    "genre_name": "ギリモザ"
+  },
+  {
+    "genre_id": 6063,
+    "genre_name": "インディーズ"
+  },
+  {
+    "genre_id": 6069,
+    "genre_name": "サイコ・スリラー"
+  },
+  {
+    "genre_id": 6070,
+    "genre_name": "How To"
+  },
+  {
+    "genre_id": 6086,
+    "genre_name": "体験告白"
+  },
+  {
+    "genre_id": 6108,
+    "genre_name": "ポルチオ"
+  },
+  {
+    "genre_id": 6149,
+    "genre_name": "超乳"
+  },
+  {
+    "genre_id": 6151,
+    "genre_name": "ゲロ"
+  },
+  {
+    "genre_id": 6161,
+    "genre_name": "10枚組"
+  },
+  {
+    "genre_id": 6164,
+    "genre_name": "ビッチ"
+  },
+  {
+    "genre_id": 6170,
+    "genre_name": "イメージビデオ（男性）"
+  },
+  {
+    "genre_id": 6529,
+    "genre_name": "DVDトースター"
+  },
+  {
+    "genre_id": 6533,
+    "genre_name": "ハイビジョン"
+  },
+  {
+    "genre_id": 6548,
+    "genre_name": "独占配信"
+  },
+  {
+    "genre_id": 6555,
+    "genre_name": "復刻"
+  },
+  {
+    "genre_id": 6565,
+    "genre_name": "期間限定セール"
+  },
+  {
+    "genre_id": 6566,
+    "genre_name": "FANZA配信限定"
+  },
+  {
+    "genre_id": 6574,
+    "genre_name": "コラボ作品"
+  },
+  {
+    "genre_id": 6575,
+    "genre_name": "動画"
+  },
+  {
+    "genre_id": 6592,
+    "genre_name": "AV OPEN 2014 ミドル級"
+  },
+  {
+    "genre_id": 6593,
+    "genre_name": "AV OPEN 2014 ヘビー級"
+  },
+  {
+    "genre_id": 6594,
+    "genre_name": "AV OPEN 2014 スーパーヘビー級"
+  },
+  {
+    "genre_id": 6597,
+    "genre_name": "ゲーム実写版"
+  },
+  {
+    "genre_id": 6608,
+    "genre_name": "女優ベスト・総集編"
+  },
+  {
+    "genre_id": 6609,
+    "genre_name": "16時間以上作品"
+  },
+  {
+    "genre_id": 6652,
+    "genre_name": "AV OPEN 2015 女優部門"
+  },
+  {
+    "genre_id": 6653,
+    "genre_name": "AV OPEN 2015 熟女部門"
+  },
+  {
+    "genre_id": 6654,
+    "genre_name": "AV OPEN 2015 企画部門"
+  },
+  {
+    "genre_id": 6655,
+    "genre_name": "AV OPEN 2015 SM/ハード部門"
+  },
+  {
+    "genre_id": 6656,
+    "genre_name": "AV OPEN 2015 素人部門"
+  },
+  {
+    "genre_id": 6657,
+    "genre_name": "AV OPEN 2015 マニア/フェチ部門"
+  },
+  {
+    "genre_id": 6658,
+    "genre_name": "AV OPEN 2015 乙女部門"
+  },
+  {
+    "genre_id": 6671,
+    "genre_name": "スマホ推奨縦動画"
+  },
+  {
+    "genre_id": 6784,
+    "genre_name": "AV OPEN 2016 女優部門"
+  },
+  {
+    "genre_id": 6785,
+    "genre_name": "AV OPEN 2016 ドラマ・ドキュメンタリー部門"
+  },
+  {
+    "genre_id": 6786,
+    "genre_name": "AV OPEN 2016 企画部門"
+  },
+  {
+    "genre_id": 6787,
+    "genre_name": "AV OPEN 2016 マニア・フェチ部門"
+  },
+  {
+    "genre_id": 6788,
+    "genre_name": "AV OPEN 2016 バラエティ部門"
+  },
+  {
+    "genre_id": 6789,
+    "genre_name": "AV OPEN 2016 素人部門"
+  },
+  {
+    "genre_id": 6790,
+    "genre_name": "AV OPEN 2016 ハード部門"
+  },
+  {
+    "genre_id": 6791,
+    "genre_name": "AV OPEN 2016 人妻・熟女部門"
+  },
+  {
+    "genre_id": 6792,
+    "genre_name": "AV OPEN 2016 乙女部門"
+  },
+  {
+    "genre_id": 6793,
+    "genre_name": "VR専用"
+  },
+  {
+    "genre_id": 6900,
+    "genre_name": "特典あり（AVベースボール）"
+  },
+  {
+    "genre_id": 6902,
+    "genre_name": "AV OPEN 2017 女優部門"
+  },
+  {
+    "genre_id": 6903,
+    "genre_name": "AV OPEN 2017 企画部門"
+  },
+  {
+    "genre_id": 6904,
+    "genre_name": "AV OPEN 2017 マニア部門"
+  },
+  {
+    "genre_id": 6905,
+    "genre_name": "AV OPEN 2017 フェチ部門"
+  },
+  {
+    "genre_id": 6906,
+    "genre_name": "AV OPEN 2017 素人部門"
+  },
+  {
+    "genre_id": 6907,
+    "genre_name": "AV OPEN 2017 ドラマ部門"
+  },
+  {
+    "genre_id": 6908,
+    "genre_name": "AV OPEN 2017 ハード部門"
+  },
+  {
+    "genre_id": 6909,
+    "genre_name": "AV OPEN 2017 人妻・熟女部門"
+  },
+  {
+    "genre_id": 6910,
+    "genre_name": "AV OPEN 2017 乙女部門"
+  },
+  {
+    "genre_id": 6911,
+    "genre_name": "AV OPEN 2017 ドキュメンタリー部門"
+  },
+  {
+    "genre_id": 6912,
+    "genre_name": "セレブの友【特典A】対象作品"
+  },
+  {
+    "genre_id": 6914,
+    "genre_name": "セレブの友【特典C】対象作品"
+  },
+  {
+    "genre_id": 6925,
+    "genre_name": "ハイクオリティVR"
+  },
+  {
+    "genre_id": 6926,
+    "genre_name": "AV OPEN 2018 女優部門"
+  },
+  {
+    "genre_id": 6927,
+    "genre_name": "AV OPEN 2018 企画部門"
+  },
+  {
+    "genre_id": 6928,
+    "genre_name": "AV OPEN 2018 マニア・フェチ部門"
+  },
+  {
+    "genre_id": 6929,
+    "genre_name": "AV OPEN 2018 素人部門"
+  },
+  {
+    "genre_id": 6930,
+    "genre_name": "AV OPEN 2018 ハード部門"
+  },
+  {
+    "genre_id": 6931,
+    "genre_name": "AV OPEN 2018 人妻・熟女部門"
+  },
+  {
+    "genre_id": 6932,
+    "genre_name": "AV OPEN 2018 乙女部門"
+  },
+  {
+    "genre_id": 6933,
+    "genre_name": "ヨガ"
+  },
+  {
+    "genre_id": 6934,
+    "genre_name": "お爺ちゃん"
+  },
+  {
+    "genre_id": 6935,
+    "genre_name": "軟体"
+  },
+  {
+    "genre_id": 6936,
+    "genre_name": "面接"
+  },
+  {
+    "genre_id": 6937,
+    "genre_name": "ヘルス・ソープ"
+  },
+  {
+    "genre_id": 6938,
+    "genre_name": "オナサポ"
+  },
+  {
+    "genre_id": 6939,
+    "genre_name": "ビジネススーツ"
+  },
+  {
+    "genre_id": 6940,
+    "genre_name": "スパンキング"
+  },
+  {
+    "genre_id": 6941,
+    "genre_name": "ディルド"
+  },
+  {
+    "genre_id": 6942,
+    "genre_name": "受付嬢"
+  },
+  {
+    "genre_id": 6943,
+    "genre_name": "叔母さん"
+  },
+  {
+    "genre_id": 6944,
+    "genre_name": "女王様"
+  },
+  {
+    "genre_id": 6945,
+    "genre_name": "女上司"
+  },
+  {
+    "genre_id": 6946,
+    "genre_name": "部下・同僚"
+  },
+  {
+    "genre_id": 6947,
+    "genre_name": "お婆ちゃん"
+  },
+  {
+    "genre_id": 6948,
+    "genre_name": "男の潮吹き"
+  },
+  {
+    "genre_id": 6949,
+    "genre_name": "罵倒"
+  },
+  {
+    "genre_id": 6950,
+    "genre_name": "鼻フック"
+  },
+  {
+    "genre_id": 6951,
+    "genre_name": "覆面・マスク"
+  },
+  {
+    "genre_id": 6952,
+    "genre_name": "放置"
+  },
+  {
+    "genre_id": 6953,
+    "genre_name": "蝋燭"
+  },
+  {
+    "genre_id": 6954,
+    "genre_name": "オタク"
+  },
+  {
+    "genre_id": 6955,
+    "genre_name": "セレブ"
+  },
+  {
+    "genre_id": 6956,
+    "genre_name": "デート"
+  },
+  {
+    "genre_id": 6957,
+    "genre_name": "飲み会・合コン"
+  },
+  {
+    "genre_id": 6958,
+    "genre_name": "バック"
+  },
+  {
+    "genre_id": 6959,
+    "genre_name": "チアガール"
+  },
+  {
+    "genre_id": 6960,
+    "genre_name": "ママ友"
+  },
+  {
+    "genre_id": 6961,
+    "genre_name": "部活・マネージャー"
+  },
+  {
+    "genre_id": 6962,
+    "genre_name": "ホテル"
+  },
+  {
+    "genre_id": 6963,
+    "genre_name": "病院・クリニック"
+  },
+  {
+    "genre_id": 6964,
+    "genre_name": "ノーパン"
+  },
+  {
+    "genre_id": 6965,
+    "genre_name": "アスリート"
+  },
+  {
+    "genre_id": 6966,
+    "genre_name": "白目・失神"
+  },
+  {
+    "genre_id": 6967,
+    "genre_name": "M女"
+  },
+  {
+    "genre_id": 6968,
+    "genre_name": "アクメ・オーガズム"
+  },
+  {
+    "genre_id": 6969,
+    "genre_name": "お風呂"
+  },
+  {
+    "genre_id": 6970,
+    "genre_name": "スワッピング・夫婦交換"
+  },
+  {
+    "genre_id": 6971,
+    "genre_name": "胸チラ"
+  },
+  {
+    "genre_id": 6972,
+    "genre_name": "ノーブラ"
+  },
+  {
+    "genre_id": 6973,
+    "genre_name": "娘・養女"
+  },
+  {
+    "genre_id": 6974,
+    "genre_name": "花嫁"
+  },
+  {
+    "genre_id": 6975,
+    "genre_name": "旅行"
+  },
+  {
+    "genre_id": 6988,
+    "genre_name": "新人ちゃん続々デビュー"
+  },
+  {
+    "genre_id": 6995,
+    "genre_name": "妄想族"
+  },
+  {
+    "genre_id": 6996,
+    "genre_name": "エマニエル"
+  },
+  {
+    "genre_id": 7267,
+    "genre_name": "セット商品"
+  },
+  {
+    "genre_id": 8501,
+    "genre_name": "ミニ系"
+  },
+  {
+    "genre_id": 8502,
+    "genre_name": "清楚"
+  },
+  {
+    "genre_id": 8503,
+    "genre_name": "ギャル"
+  },
+  {
+    "genre_id": 8504,
+    "genre_name": "美脚"
+  },
+  {
+    "genre_id": 8505,
+    "genre_name": "くびれ"
+  },
+  {
+    "genre_id": 8506,
+    "genre_name": "ボディピアス"
+  },
+  {
+    "genre_id": 8507,
+    "genre_name": "長身"
+  },
+  {
+    "genre_id": 8508,
+    "genre_name": "巨乳"
+  },
+  {
+    "genre_id": 8509,
+    "genre_name": "美乳"
+  },
+  {
+    "genre_id": 8510,
+    "genre_name": "ぽっちゃり"
+  },
+  {
+    "genre_id": 8511,
+    "genre_name": "スレンダー"
+  },
+  {
+    "genre_id": 8512,
+    "genre_name": "パイパン"
+  },
+  {
+    "genre_id": 8513,
+    "genre_name": "色白"
+  },
+  {
+    "genre_id": 8514,
+    "genre_name": "色黒"
+  },
+  {
+    "genre_id": 8515,
+    "genre_name": "ロングヘアー"
+  },
+  {
+    "genre_id": 8516,
+    "genre_name": "ショートヘアー"
+  },
+  {
+    "genre_id": 8518,
+    "genre_name": "茶髪"
+  },
+  {
+    "genre_id": 8519,
+    "genre_name": "金髪"
+  },
+  {
+    "genre_id": 8520,
+    "genre_name": "巻き髪"
+  },
+  {
+    "genre_id": 8521,
+    "genre_name": "お姉さん"
+  },
+  {
+    "genre_id": 8522,
+    "genre_name": "タトゥー"
+  },
+  {
+    "genre_id": 8523,
+    "genre_name": "貧乳・微乳"
+  },
+  {
+    "genre_id": 8524,
+    "genre_name": "お嬢様・令嬢"
+  },
+  {
+    "genre_id": 8525,
+    "genre_name": "ミディアムヘアー"
+  },
+  {
+    "genre_id": 8526,
+    "genre_name": "小柄"
+  },
+  {
+    "genre_id": 8527,
+    "genre_name": "黒髪"
+  },
+  {
+    "genre_id": 8528,
+    "genre_name": "外国人"
+  },
+  {
+    "genre_id": 10138,
+    "genre_name": "ディルド"
+  },
+  {
+    "genre_id": 66310,
+    "genre_name": "セクシー"
+  },
+  {
+    "genre_id": 66314,
+    "genre_name": "コスプレ"
+  },
+  {
+    "genre_id": 66317,
+    "genre_name": "制服"
+  },
+  {
+    "genre_id": 66318,
+    "genre_name": "和服・浴衣"
+  },
+  {
+    "genre_id": 66329,
+    "genre_name": "ドラマ"
+  },
+  {
+    "genre_id": 66347,
+    "genre_name": "R-15"
+  },
+  {
+    "genre_id": 79002,
+    "genre_name": "セクシー"
+  },
+  {
+    "genre_id": 79005,
+    "genre_name": "エロス"
+  },
+  {
+    "genre_id": 79008,
+    "genre_name": "R-18"
+  },
+  {
+    "genre_id": 79015,
+    "genre_name": "4K"
+  },
+  {
+    "genre_id": 300129,
+    "genre_name": "福袋"
+  },
+  {
+    "genre_id": 307935,
+    "genre_name": "8KVR"
+  }
+]

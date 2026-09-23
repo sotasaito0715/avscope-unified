@@ -1,0 +1,252 @@
+# Cursor Rules - Vercel無料プラン最適化ポリシー
+
+## 🎯 基本方針
+
+このプロジェクトはVercelの無料プラン（Hobbyプラン）で運用するため、以下のリソース制限を超えないように実装する必要があります。
+
+### Vercel無料プランの制限
+
+- **Function Invocations**: 1M/月
+- **Edge Requests**: 1M/月
+- **Fast Origin Transfer**: 10 GB/月
+- **Fluid Active CPU**: 4h/月
+- **Fluid Provisioned Memory**: 360 GB-Hrs/月
+- **Image Optimization - Transformations**: 5K/月
+- **Image Optimization - Cache Writes**: 100K/月
+
+## 📋 実装ポリシー
+
+### 1. 画像最適化の無効化
+
+**必須:**
+- `next.config.ts`で`images.unoptimized: true`を設定すること
+- すべての`next/image`コンポーネントで画像最適化が無効化されていることを確認すること
+- Image Optimization APIを使用しないこと
+
+**理由:**
+- Image Optimizationの制限（5K/月）は非常に厳しい
+- 画像最適化を無効化することで、この制限を完全に回避できる
+
+### 2. 動的レンダリングの最小化
+
+**必須:**
+- 可能な限り静的生成（SSG）またはISR（Incremental Static Regeneration）を使用すること
+- `export const dynamic = 'force-dynamic'`は避けること
+- サイトマップ、OGP画像、その他の動的コンテンツには必ずISRを設定すること
+
+**推奨設定:**
+```typescript
+// 24時間キャッシュ（標準）
+export const revalidate = 86400;
+
+// 変更頻度が低いコンテンツ（48時間）
+export const revalidate = 172800;
+```
+
+**理由:**
+- 動的レンダリングはFunction InvocationsとCPU使用量を増加させる
+- ISRにより、同じコンテンツの再生成を回避できる
+
+### 3. APIルートのキャッシュ戦略
+
+**必須:**
+- すべてのAPIルートで適切なキャッシュヘッダーを設定すること
+- 成功レスポンスは必ずキャッシュすること
+- エラーレスポンスはキャッシュしないこと（`Cache-Control: no-store`）
+
+**推奨設定:**
+```typescript
+// 標準的なAPIレスポンス（24時間キャッシュ）
+headers: {
+  'Cache-Control': 'public, s-maxage=86400, stale-while-revalidate=172800'
+}
+
+// 変更頻度が低いデータ（48時間キャッシュ）
+headers: {
+  'Cache-Control': 'public, s-maxage=172800, stale-while-revalidate=345600'
+}
+```
+
+**理由:**
+- APIルートのキャッシュにより、Function Invocationsを大幅に削減できる
+- stale-while-revalidateにより、ユーザー体験を損なわずにキャッシュを活用できる
+
+### 4. Edge Runtimeの使用制限
+
+**必須:**
+- Edge Runtimeは必要な場合のみ使用すること
+- OGP画像生成など、キャッシュ可能なコンテンツにはNode.js Runtimeを使用すること
+- Edge Runtimeを使用する場合は、必ずISRを設定すること
+
+**理由:**
+- Edge Requestsの制限（1M/月）は厳しい
+- Node.js Runtimeの方がキャッシュ効率が良い場合が多い
+
+### 5. サイトマップの最適化
+
+**必須:**
+- すべてのサイトマップファイルでISRを設定すること
+- `force-dynamic`は使用しないこと
+- キャッシュヘッダーを24時間以上に設定すること
+
+**推奨設定:**
+```typescript
+export const revalidate = 86400; // 24時間
+
+// HTTPレスポンスヘッダー
+headers: {
+  'Cache-Control': 'public, max-age=86400, s-maxage=86400, stale-while-revalidate=172800'
+}
+```
+
+**理由:**
+- サイトマップは変更頻度が低いため、長時間キャッシュが可能
+- サイトマップの生成はCPU使用量が多いため、キャッシュが重要
+
+### 6. OGP画像の最適化
+
+**必須:**
+- OGP画像生成にはNode.js Runtimeを使用すること（Edge Runtimeは避ける）
+- 必ずISRを設定すること（24時間以上）
+- `revalidate`を設定すること
+
+**推奨設定:**
+```typescript
+export const runtime = 'nodejs';
+export const revalidate = 86400; // 24時間
+```
+
+**理由:**
+- OGP画像は変更頻度が低いため、長時間キャッシュが可能
+- Edge RuntimeからNode.js Runtimeに変更することで、Edge Requestsを削減できる
+
+### 7. 外部APIコールの最適化
+
+**必須:**
+- 外部APIコールには必ず`next: { revalidate }`を設定すること
+- 同じデータを複数回取得しないこと
+- 可能な限り並列処理を避け、順次処理を使用すること
+
+**推奨設定:**
+```typescript
+const response = await fetch(url, {
+  next: { revalidate: 86400 } // 24時間キャッシュ
+});
+```
+
+**理由:**
+- 外部APIコールはCPU使用量とFunction Invocationsを増加させる
+- キャッシュにより、同じデータの再取得を回避できる
+
+### 8. 静的アセットのキャッシュ
+
+**必須:**
+- 静的アセット（画像、フォント、CSS、JS）は1年間キャッシュすること
+- `next.config.ts`で適切なキャッシュヘッダーを設定すること
+
+**推奨設定:**
+```typescript
+// next.config.ts
+async headers() {
+  return [
+    {
+      source: '/:path*\\.(ico|png|jpg|jpeg|gif|svg|webp|avif|woff|woff2|ttf|eot)',
+      headers: [
+        {
+          key: 'Cache-Control',
+          value: 'public, max-age=31536000, immutable',
+        },
+      ],
+    },
+  ];
+}
+```
+
+**理由:**
+- 静的アセットの再ダウンロードはFast Origin Transferを増加させる
+- 長時間キャッシュにより、帯域幅を大幅に削減できる
+
+### 9. ページレベルの最適化
+
+**必須:**
+- 可能な限り`generateStaticParams`を使用すること
+- 動的ページには必ずISRを設定すること
+- `force-dynamic`は必要な場合のみ使用すること
+
+**推奨設定:**
+```typescript
+// 静的生成可能なページ
+export async function generateStaticParams() {
+  // ...
+}
+
+// 動的ページ（ISR）
+export const revalidate = 86400; // 24時間
+```
+
+**理由:**
+- 静的生成により、Function InvocationsとCPU使用量を削減できる
+- ISRにより、動的コンテンツでもキャッシュを活用できる
+
+### 10. モニタリングとアラート
+
+**必須:**
+- Vercelダッシュボードでリソース使用量を定期的に監視すること
+- 制限の80%に達した場合は、追加の最適化を検討すること
+- 月次でリソース使用量をレビューすること
+
+**監視すべき指標:**
+- Function Invocations: 目標 800K/月以下
+- Edge Requests: 目標 800K/月以下
+- Fast Origin Transfer: 目標 8 GB/月以下
+- Fluid Active CPU: 目標 3.2h/月以下
+- Image Optimization: 目標 0/月（無効化されているため）
+
+## 🚫 禁止事項
+
+### 絶対にやってはいけないこと
+
+1. **Image Optimization APIの使用**
+   - `images.unoptimized: false`に設定しないこと
+   - Image Optimization APIを直接呼び出さないこと
+
+2. **不要な動的レンダリング**
+   - 静的生成可能なページで`force-dynamic`を使用しないこと
+   - キャッシュ可能なコンテンツで動的レンダリングを使用しないこと
+
+3. **Edge Runtimeの過度な使用**
+   - キャッシュ可能なコンテンツでEdge Runtimeを使用しないこと
+   - OGP画像生成でEdge Runtimeを使用しないこと
+
+4. **キャッシュなしのAPIルート**
+   - 成功レスポンスでキャッシュを設定しないこと
+   - エラーレスポンスでキャッシュを設定すること
+
+5. **外部APIコールの重複**
+   - 同じデータを複数回取得しないこと
+   - 並列処理で大量のAPIコールを実行しないこと
+
+## ✅ チェックリスト
+
+新しい機能を実装する際は、以下のチェックリストを確認すること：
+
+- [ ] Image Optimization APIを使用していないか？
+- [ ] 動的レンダリングが必要か？静的生成やISRで代替できないか？
+- [ ] APIルートに適切なキャッシュヘッダーを設定したか？
+- [ ] Edge Runtimeが必要か？Node.js Runtimeで代替できないか？
+- [ ] サイトマップやOGP画像にISRを設定したか？
+- [ ] 外部APIコールに`next: { revalidate }`を設定したか？
+- [ ] 静的アセットに適切なキャッシュヘッダーを設定したか？
+- [ ] ページレベルでISRを設定したか？
+- [ ] Vercelダッシュボードでリソース使用量を確認したか？
+
+## 📚 参考資料
+
+- [Vercel無料プラン最適化ガイド](./docs/VERCEL_FREE_PLAN_OPTIMIZATION.md)
+- [Vercel料金分析](./docs/VERCEL_PRICING_ANALYSIS.md)
+- [Next.js キャッシュ戦略](https://nextjs.org/docs/app/building-your-application/caching)
+
+---
+
+**重要**: これらのポリシーに従うことで、Vercelの無料プラン制限内で運用できます。新しい機能を実装する際は、必ずこのポリシーを確認してください。
+
