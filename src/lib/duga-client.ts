@@ -112,6 +112,22 @@ export async function fetchDugaSearch(
 
 const SHIROTO_ORIGIN = process.env.DUGA_PROXY_ORIGIN || 'https://shiroto.avscope.jp';
 
+function isProductionBuild(): boolean {
+  return process.env.NEXT_PHASE === 'phase-production-build';
+}
+
+async function fetchWithRetry(url: string, init: RequestInit, attempts = 3): Promise<Response> {
+  let last: Response | undefined;
+  for (let i = 0; i < attempts; i += 1) {
+    last = await fetch(url, init);
+    if (last.status !== 429 && last.status < 500) {
+      return last;
+    }
+    await new Promise((resolve) => setTimeout(resolve, 800 * (i + 1)));
+  }
+  return last as Response;
+}
+
 async function fetchItemsViaShirotoProxy(
   params: FetchItemsParams & { offset?: number },
   revalidate: number
@@ -126,7 +142,11 @@ async function fetchItemsViaShirotoProxy(
   if (params.article) searchParams.set('article', params.article);
   if (params.article_id) searchParams.set('article_id', params.article_id);
 
-  const response = await fetch(`${SHIROTO_ORIGIN}/api/items?${searchParams.toString()}`, {
+  if (isProductionBuild()) {
+    return { items: [], total_count: 0 };
+  }
+
+  const response = await fetchWithRetry(`${SHIROTO_ORIGIN}/api/items?${searchParams.toString()}`, {
     next: { revalidate },
     headers: { Accept: 'application/json' },
   });
@@ -151,10 +171,17 @@ async function fetchItemDetailViaShirotoProxy(
   productId: string,
   revalidate: number
 ): Promise<DMMItem | null> {
-  const response = await fetch(`${SHIROTO_ORIGIN}/api/item/${encodeURIComponent(productId)}`, {
-    next: { revalidate },
-    headers: { Accept: 'application/json' },
-  });
+  if (isProductionBuild()) {
+    return null;
+  }
+
+  const response = await fetchWithRetry(
+    `${SHIROTO_ORIGIN}/api/item/${encodeURIComponent(productId)}`,
+    {
+      next: { revalidate },
+      headers: { Accept: 'application/json' },
+    }
+  );
 
   if (response.status === 404) return null;
   if (!response.ok) {
